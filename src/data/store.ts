@@ -574,6 +574,18 @@ export function hasLocalChanges(): boolean {
   }
 }
 
+/** true/false when the database answered; null when it could not be reached. */
+export async function remoteMenuExists(): Promise<boolean | null> {
+  if (!isSupabaseMode()) return null;
+  const { data, error } = await getSupabase()
+    .from('menu_documents')
+    .select('id')
+    .eq('id', 'main')
+    .maybeSingle();
+  if (error) return null;
+  return Boolean(data);
+}
+
 export async function seedInitialSupabaseMenu(): Promise<Menu> {
   const staticMenu = await loadStaticMenu();
   await saveMenu(staticMenu, { force: true });

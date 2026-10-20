@@ -18,6 +18,7 @@ import {
   saveMenu,
   saveMenuLocalSync,
   seedInitialSupabaseMenu,
+  remoteMenuExists,
   setLastKnownUpdatedAt,
   signInAdmin,
   signOutAdmin,
@@ -750,6 +751,17 @@ export const AdminApp: React.FC = () => {
       );
     }
   };
+
+  // First admin login on an empty database: upload the bundled menu automatically.
+  const seedCheckedRef = useRef(false);
+  useEffect(() => {
+    if (!supabaseActive || !adminUser || seedCheckedRef.current) return;
+    seedCheckedRef.current = true;
+    void remoteMenuExists().then((exists) => {
+      if (exists === false) void handleSeedSupabase();
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [supabaseActive, adminUser]);
 
   const handleLogout = async () => {
     clearAutosaveTimer();
