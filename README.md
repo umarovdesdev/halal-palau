@@ -72,11 +72,19 @@ npm run db:check
 1. Зарегистрируйтесь на сайте [supabase.com](https://supabase.com) и нажмите **New project** (создайте новый проект на бесплатном тарифе Free).
 2. В левом меню откройте **SQL Editor**, создайте новый запрос (**New query**), вставьте в него всё содержимое файла [`supabase/schema.sql`](./supabase/schema.sql) и нажмите **Run**. Скрипт идемпотентен (его можно безопасно запускать повторно) и настраивает:
    - таблицу `public.menu_documents` (`id`, `data`, `updated_at`) с триггером автообновления `updated_at`;
-   - политики безопасности **RLS** на `menu_documents`: публичное чтение (`SELECT`) для гостей (`anon`) и администраторов (`authenticated`), добавление и обновление (`INSERT`/`UPDATE`) только для `authenticated`, политика удаления (`DELETE`) отсутствует;
-   - таблицу `public.menu_history` (`id`, `menu_id`, `data`, `saved_at`, `saved_by`) с политиками RLS (`SELECT`/`INSERT` только для `authenticated`) и триггером, который при каждом обновлении `menu_documents` сохраняет предыдущую версию (`OLD`) и автоматически оставляет последние 50 версий.
+   - таблицу `public.menu_admins` — список администраторов; писать меню может только пользователь из неё (не любой вошедший в Supabase);
+   - политики безопасности **RLS** на `menu_documents`: публичное чтение (`SELECT`) для всех, добавление и обновление (`INSERT`/`UPDATE`) только для администраторов из `menu_admins`, политика удаления (`DELETE`) отсутствует;
+   - таблицу `public.menu_history` (`id`, `menu_id`, `data`, `saved_at`, `saved_by`): читать могут только администраторы, пишет только триггер, который при каждом обновлении `menu_documents` сохраняет предыдущую версию и оставляет последние 50.
 3. В левом меню откройте **Authentication → Users** и нажмите кнопку **Add user → Create new user**:
    - Введите **Email** и **Password** (пароль, которым вы будете входить в панель управления меню).
    - Обязательно оставьте включённой галочку **Auto Confirm User** и нажмите **Create user**.
+   - Добавьте этого пользователя в администраторы: в **SQL Editor** выполните (подставьте свой email):
+     ```sql
+     insert into public.menu_admins (user_id)
+     select id from auth.users where email = 'admin@example.com'
+     on conflict do nothing;
+     ```
+   - Закройте регистрацию посторонним: **Authentication → Sign In / Providers → Email** — выключите **Allow new users to sign up**.
 4. В левом меню откройте **Project Settings** (иконка шестерёнки внизу) → **API** и скопируйте два значения:
    - **Project URL** (адрес вида `https://xxxxxxxx.supabase.co`)
    - **Project API Keys → `anon` `public`** (длинный публичный ключ)
