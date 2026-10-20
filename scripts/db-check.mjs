@@ -1,7 +1,13 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { createClient } from '@supabase/supabase-js';
+
+// supabase-js creates a realtime client that needs WebSocket, which Node < 22 lacks.
+// The check only uses REST, so a stub is enough; it must exist before the library loads.
+if (typeof globalThis.WebSocket === 'undefined') {
+  globalThis.WebSocket = class WebSocketUnavailable {};
+}
+const { createClient } = await import('@supabase/supabase-js');
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
