@@ -1,0 +1,1451 @@
+{
+  "restaurant": {
+    "name": "Халал Палау",
+    "subtitle": "Мәзір · Меню",
+    "tagline": "Традиционная восточная кухня",
+    "notes": [],
+    "footer": {
+      "warning": "Сусын әкелуге және ішуге қатаң тыйым салынады / Приносить и распивать напитки строго запрещается",
+      "service": "Қызмет көрсету / Обслуживание — 10%",
+      "cooking": "Дайындау уақыты / Время приготовления — 15–20 минут"
+    },
+    "i18n": {
+      "kk": {
+        "name": "Халал Палау",
+        "subtitle": "Мәзір",
+        "tagline": "Дәстүрлі шығыс асханасы",
+        "footer": {
+          "warning": "Сусын әкелуге және ішуге қатаң тыйым салынады",
+          "service": "Қызмет көрсету — 10%",
+          "cooking": "Дайындау уақыты — 15–20 минут"
+        }
+      },
+      "tr": {
+        "name": "Helal Palau",
+        "subtitle": "Menü",
+        "tagline": "Geleneksel Doğu Mutfağı",
+        "footer": {
+          "warning": "Dışarıdan içecek getirmek ve tüketmek kesinlikle yasaktır",
+          "service": "Servis ücreti — %10",
+          "cooking": "Hazırlama süresi — 15–20 dakika"
+        }
+      },
+      "en": {
+        "name": "Halal Palau",
+        "subtitle": "Menu",
+        "tagline": "Traditional Eastern Cuisine",
+        "footer": {
+          "warning": "Outside drinks are strictly prohibited",
+          "service": "Service charge — 10%",
+          "cooking": "Preparation time — 15–20 minutes"
+        }
+      }
+    }
+  },
+  "settings": {
+    "siteUrl": "",
+    "currency": "₸",
+    "showQr": true
+  },
+  "categories": [
+    {
+      "id": "breakfast",
+      "title": "Завтраки",
+      "titleKz": "Таңғы ас",
+      "items": [
+        {
+          "name": "Яичница",
+          "price": "750",
+          "i18n": {
+            "kk": {
+              "name": "Қуырылған жұмыртқа"
+            },
+            "tr": {
+              "name": "Sahanda Yumurta"
+            },
+            "en": {
+              "name": "Fried Eggs"
+            }
+          }
+        },
+        {
+          "name": "Яичница с колбасой",
+          "price": "1090",
+          "i18n": {
+            "kk": {
+              "name": "Шұжық қосылған қуырылған жұмыртқа"
+            },
+            "tr": {
+              "name": "Sucuklu Sahanda Yumurta"
+            },
+            "en": {
+              "name": "Fried Eggs with Sausage"
+            }
+          }
+        },
+        {
+          "name": "Каша манная",
+          "price": "1090",
+          "i18n": {
+            "kk": {
+              "name": "Манна ботқасы"
+            },
+            "tr": {
+              "name": "İrmik Lapası"
+            },
+            "en": {
+              "name": "Semolina Porridge"
+            }
+          }
+        },
+        {
+          "name": "Каша рисовая",
+          "price": "1090",
+          "i18n": {
+            "kk": {
+              "name": "Күріш ботқасы"
+            },
+            "tr": {
+              "name": "Pirinç Lapası"
+            },
+            "en": {
+              "name": "Rice Porridge"
+            }
+          }
+        },
+        {
+          "name": "Лепешка",
+          "price": "250",
+          "i18n": {
+            "kk": {
+              "name": "Таба нан"
+            },
+            "tr": {
+              "name": "Tandır Ekmeği"
+            },
+            "en": {
+              "name": "Tandoor Flatbread"
+            }
+          }
+        },
+        {
+          "name": "Мини чебуреки",
+          "portion": "порция 4 шт.",
+          "price": "1290",
+          "i18n": {
+            "kk": {
+              "name": "Мини чебуректер",
+              "portion": "порция 4 дана"
+            },
+            "tr": {
+              "name": "Mini Çibörek",
+              "portion": "4 adet"
+            },
+            "en": {
+              "name": "Mini Chebureki",
+              "portion": "4 pcs"
+            }
+          }
+        }
+      ],
+      "i18n": {
+        "kk": {
+          "title": "Таңғы ас"
+        },
+        "tr": {
+          "title": "Kahvaltılar"
+        },
+        "en": {
+          "title": "Breakfast"
+        }
+      }
+    },
+    {
+      "id": "soups",
+      "title": "Первые блюда",
+      "titleKz": "Бірінші тағамдар",
+      "items": [
+        {
+          "name": "Шорва",
+          "portion": "из говядины",
+          "description": "Мясо говядина, картофель, морковь",
+          "price": "1690",
+          "i18n": {
+            "kk": {
+              "name": "Шорпа",
+              "portion": "сиыр етінен",
+              "description": "Сиыр еті, картоп, сәбіз"
+            },
+            "tr": {
+              "name": "Şorba",
+              "portion": "dana etli",
+              "description": "Dana eti, patates, havuç"
+            },
+            "en": {
+              "name": "Shorpa",
+              "portion": "beef",
+              "description": "Beef, potatoes, carrots"
+            }
+          }
+        },
+        {
+          "name": "Шорва",
+          "portion": "из баранины",
+          "description": "Мясо баранина, картофель, морковь",
+          "price": "1690",
+          "i18n": {
+            "kk": {
+              "name": "Шорпа",
+              "portion": "қой етінен",
+              "description": "Қой еті, картоп, сәбіз"
+            },
+            "tr": {
+              "name": "Şorba",
+              "portion": "kuzu etli",
+              "description": "Kuzu eti, patates, havuç"
+            },
+            "en": {
+              "name": "Shorpa",
+              "portion": "lamb",
+              "description": "Lamb, potatoes, carrots"
+            }
+          }
+        },
+        {
+          "name": "Мастава",
+          "description": "Рисовый суп с машем и овощами на говяжьем бульоне с томатом",
+          "price": "1290",
+          "i18n": {
+            "kk": {
+              "name": "Мастава",
+              "description": "Томат қосылған сиыр сорпасындағы маш пен көкөністерден дайындалған күріш көже"
+            },
+            "tr": {
+              "name": "Mastava",
+              "description": "Domatesli dana suyunda maş fasulyeli ve sebzeli pirinç çorbası"
+            },
+            "en": {
+              "name": "Mastava",
+              "description": "Rice soup with mung beans and vegetables in tomato beef broth"
+            }
+          }
+        },
+        {
+          "name": "Узгача",
+          "description": "Суп с тестом и овощами на говяжьем бульоне с томатом",
+          "price": "1290",
+          "i18n": {
+            "kk": {
+              "name": "Ұзғаша",
+              "description": "Томат қосылған сиыр сорпасындағы қамыр мен көкөніс сорпасы"
+            },
+            "tr": {
+              "name": "Uzgaça",
+              "description": "Domatesli dana suyunda hamur parçacıklı ve sebzeli çorba"
+            },
+            "en": {
+              "name": "Uzgacha",
+              "description": "Soup with dough and vegetables in tomato beef broth"
+            }
+          }
+        },
+        {
+          "name": "Чучвара",
+          "description": "Пельмени, мясо говядина, с овощами на говяжьем бульоне и томатом",
+          "price": "1390",
+          "i18n": {
+            "kk": {
+              "name": "Тұшпара",
+              "description": "Сиыр етінен жасалған тұшпара, көкөністер мен томат қосылған сиыр сорпасы"
+            },
+            "tr": {
+              "name": "Çüçvara",
+              "description": "Domatesli ve sebzeli dana suyunda dana etli mantı çorbası"
+            },
+            "en": {
+              "name": "Chuchvara",
+              "description": "Beef dumplings with vegetables in tomato beef broth"
+            }
+          }
+        },
+        {
+          "name": "Куриный суп",
+          "description": "Окорочка, морковь, лук, вермишель",
+          "price": "1290",
+          "i18n": {
+            "kk": {
+              "name": "Тауық сорпасы",
+              "description": "Тауық сан еті, сәбіз, пияз, кеспе"
+            },
+            "tr": {
+              "name": "Tavuk Çorbası",
+              "description": "Tavuk budu, havuç, soğan, tel şehriye"
+            },
+            "en": {
+              "name": "Chicken Soup",
+              "description": "Chicken leg, carrots, onion, vermicelli"
+            }
+          }
+        },
+        {
+          "name": "Манпар",
+          "description": "Мясо говядина, перец полугорький, лук, помидор, кусочки теста, специи",
+          "price": "1590",
+          "i18n": {
+            "kk": {
+              "name": "Манпар",
+              "description": "Сиыр еті, жартылай ащы бұрыш, пияз, қызанақ, қамыр кесектері, дәмдеуіштер"
+            },
+            "tr": {
+              "name": "Manpar",
+              "description": "Dana eti, hafif acı biber, soğan, domates, hamur parçaları, baharatlar"
+            },
+            "en": {
+              "name": "Manpar",
+              "description": "Beef, semi-hot pepper, onion, tomato, hand-pinched dough, spices"
+            }
+          }
+        },
+        {
+          "name": "Солянка",
+          "description": "Мясо говядина, колбаса вареная, куриный рулет, огурцы соленые, оливки, томат",
+          "price": "1550",
+          "i18n": {
+            "kk": {
+              "name": "Солянка",
+              "description": "Сиыр еті, пісірілген шұжық, тауық орамасы, тұздалған қияр, зәйтүн, томат"
+            },
+            "tr": {
+              "name": "Solyanka",
+              "description": "Dana eti, haşlanmış sosis, tavuk rulo, salatalık turşusu, zeytin, domates"
+            },
+            "en": {
+              "name": "Solyanka",
+              "description": "Beef, boiled sausage, chicken roll, pickled cucumbers, olives, tomato"
+            }
+          }
+        },
+        {
+          "name": "Нарын",
+          "description": "Мясной бульон, тонко нарезанная домашняя лапша, отварное мясо с добавлением казы",
+          "price": "1990",
+          "i18n": {
+            "kk": {
+              "name": "Нарын",
+              "description": "Ет сорпасы, жұқалап туралған үй кеспесі, қазы қосылған пісірілген ет"
+            },
+            "tr": {
+              "name": "Narın",
+              "description": "Et suyu, ince kesilmiş ev eriştesi, kazı ilaveli haşlanmış et"
+            },
+            "en": {
+              "name": "Naryn",
+              "description": "Meat broth, finely sliced homemade noodles, boiled meat with kazy"
+            }
+          }
+        },
+        {
+          "name": "Суп мясо по-казахски",
+          "description": "Отварное мясо говядина с наваристым бульоном, тонкое отварное тесто и лук",
+          "price": "1750",
+          "i18n": {
+            "kk": {
+              "name": "Қазақша ет сорпасы",
+              "description": "Құнарлы сорпада піскен сиыр еті, жұқа жайма қамыр және пияз"
+            },
+            "tr": {
+              "name": "Kazak Usulü Et Çorbası",
+              "description": "Zengin et suyunda haşlanmış dana eti, ince haşlanmış hamur ve soğan"
+            },
+            "en": {
+              "name": "Kazakh-Style Meat Soup",
+              "description": "Boiled beef in rich broth, thin boiled dough sheets, and onion"
+            }
+          }
+        },
+        {
+          "name": "Пельмени",
+          "description": "На говяжьем бульоне",
+          "price": "1290",
+          "i18n": {
+            "kk": {
+              "name": "Пельмен",
+              "description": "Сиыр сорпасында"
+            },
+            "tr": {
+              "name": "Pelmeni",
+              "description": "Dana et suyunda"
+            },
+            "en": {
+              "name": "Pelmeni Dumplings",
+              "description": "Served in beef broth"
+            }
+          }
+        },
+        {
+          "name": "Пельмени в сырном бульоне",
+          "description": "Бульон куриный, сыр плавленый",
+          "price": "1550",
+          "i18n": {
+            "kk": {
+              "name": "Ірімшік сорпасындағы пельмен",
+              "description": "Тауық сорпасы, балқытылған ірімшік"
+            },
+            "tr": {
+              "name": "Peynirli Suda Pelmeni",
+              "description": "Tavuk suyu, eritme peynir"
+            },
+            "en": {
+              "name": "Pelmeni in Cheese Broth",
+              "description": "Chicken broth, melted cheese"
+            }
+          }
+        }
+      ],
+      "i18n": {
+        "kk": {
+          "title": "Бірінші тағамдар"
+        },
+        "tr": {
+          "title": "Çorbalar"
+        },
+        "en": {
+          "title": "First Courses & Soups"
+        }
+      }
+    },
+    {
+      "id": "mains",
+      "title": "Вторые блюда",
+      "titleKz": "Екінші тағамдар",
+      "items": [
+        {
+          "name": "Той палау",
+          "description": "Рис лазер, мясо говядина, яйцо, морковь красная и жёлтая, изюм, нут",
+          "price": "1800",
+          "i18n": {
+            "kk": {
+              "name": "Той палау",
+              "description": "Лазер күріші, сиыр еті, жұмыртқа, қызыл және сары сәбіз, мейіз, ноқат"
+            },
+            "tr": {
+              "name": "Toy Pilavı",
+              "description": "Lazer pirinci, dana eti, yumurta, kırmızı ve sarı havuç, kuru üzüm, nohut"
+            },
+            "en": {
+              "name": "Toy Plov",
+              "description": "Laser rice, beef, egg, red and yellow carrots, raisins, chickpeas"
+            }
+          }
+        },
+        {
+          "name": "Плов с казы",
+          "description": "Рис лазер, казы, мясо говядина, яйцо, морковь красная и жёлтая, изюм, нут",
+          "price": "2290",
+          "i18n": {
+            "kk": {
+              "name": "Қазы қосылған палау",
+              "description": "Лазер күріші, қазы, сиыр еті, жұмыртқа, қызыл және сары сәбіз, мейіз, ноқат"
+            },
+            "tr": {
+              "name": "Kazılı Pilav",
+              "description": "Lazer pirinci, kazı, dana eti, yumurta, kırmızı ve sarı havuç, kuru üzüm, nohut"
+            },
+            "en": {
+              "name": "Plov with Kazy",
+              "description": "Laser rice, kazy, beef, egg, red and yellow carrots, raisins, chickpeas"
+            }
+          }
+        },
+        {
+          "name": "Окорочка с гарниром",
+          "description": "Запеченная куриная окорочка",
+          "price": "1790",
+          "i18n": {
+            "kk": {
+              "name": "Гарнир қосылған тауық сан еті",
+              "description": "Пеште пісірілген тауық сан еті"
+            },
+            "tr": {
+              "name": "Garnitürlü Tavuk Budu",
+              "description": "Fırınlanmış tavuk budu"
+            },
+            "en": {
+              "name": "Chicken Leg with Side",
+              "description": "Oven-roasted chicken leg"
+            }
+          }
+        },
+        {
+          "name": "Цомян",
+          "description": "Мясо говядина, крупно резаное тесто, полугорький перец, томат",
+          "price": "1790",
+          "i18n": {
+            "kk": {
+              "name": "Цомян",
+              "description": "Сиыр еті, ірілеп кесілген қамыр, жартылай ащы бұрыш, томат"
+            },
+            "tr": {
+              "name": "Tsomyan",
+              "description": "Dana eti, iri kesilmiş erişte hamuru, hafif acı biber, domates"
+            },
+            "en": {
+              "name": "Tsomyan",
+              "description": "Beef, wide-cut noodles, semi-hot pepper, tomato"
+            }
+          }
+        },
+        {
+          "name": "Ганфан",
+          "description": "Мясо говядина, рис, полугорький перец, томат",
+          "price": "1790",
+          "i18n": {
+            "kk": {
+              "name": "Ганфан",
+              "description": "Сиыр еті, күріш, жартылай ащы бұрыш, томат"
+            },
+            "tr": {
+              "name": "Ganfan",
+              "description": "Dana eti, pirinç pilavı, hafif acı biber, domates"
+            },
+            "en": {
+              "name": "Ganfan",
+              "description": "Beef, steamed rice, semi-hot pepper, tomato"
+            }
+          }
+        },
+        {
+          "name": "Лагман по-домашнему",
+          "description": "Говядина, лук, чеснок, дайкон (белая редька), помидоры, морковь, картофель, перец болгарский, сельдерей, лапша",
+          "price": "1590",
+          "i18n": {
+            "kk": {
+              "name": "Үй лағманы",
+              "description": "Сиыр еті, пияз, сарымсақ, дайкон (ақ шалғам), қызанақ, сәбіз, картоп, тәтті бұрыш, балдыркөк, созба кеспе"
+            },
+            "tr": {
+              "name": "Ev Usulü Lağman",
+              "description": "Dana eti, soğan, sarımsak, daykon turpu, domates, havuç, patates, dolmalık biber, kereviz sapı, el çekmesi erişte"
+            },
+            "en": {
+              "name": "Homestyle Lagman",
+              "description": "Beef, onion, garlic, daikon radish, tomatoes, carrots, potatoes, bell pepper, celery, hand-pulled noodles"
+            }
+          }
+        },
+        {
+          "name": "Гуйру лагман",
+          "description": "Говядина, тесто, полугорький перец, томат",
+          "price": "1790",
+          "i18n": {
+            "kk": {
+              "name": "Гуйру лағман",
+              "description": "Сиыр еті, созба қамыр, жартылай ащы бұрыш, томат"
+            },
+            "tr": {
+              "name": "Guyru Lağman",
+              "description": "Dana eti, el çekmesi erişte, hafif acı biber, domates"
+            },
+            "en": {
+              "name": "Guyru Lagman",
+              "description": "Beef, hand-pulled noodles, semi-hot pepper, tomato"
+            }
+          }
+        },
+        {
+          "name": "Суйру лагман",
+          "description": "Мелко нарезанные овощи с мясом, более жидкий",
+          "price": "1790",
+          "i18n": {
+            "kk": {
+              "name": "Суйру лағман",
+              "description": "Ет пен ұсақтап туралған көкөністер, сорпасы молдау"
+            },
+            "tr": {
+              "name": "Suyru Lağman",
+              "description": "İnce doğranmış sebzeler ve et, bol sulu"
+            },
+            "en": {
+              "name": "Suyru Lagman",
+              "description": "Finely diced vegetables with beef in a lighter broth"
+            }
+          }
+        },
+        {
+          "name": "Динь-динь цомян",
+          "description": "Мелко нарезанное тесто с овощами и мясом",
+          "price": "1790",
+          "i18n": {
+            "kk": {
+              "name": "Динь-динь цомян",
+              "description": "Көкөністер мен ет қосылған ұсақтап кесілген қамыр"
+            },
+            "tr": {
+              "name": "Din-Din Tsomyan",
+              "description": "Sebze ve etle kavrulmuş küçük doğranmış erişte hamuru"
+            },
+            "en": {
+              "name": "Ding-Ding Tsomyan",
+              "description": "Finely diced noodles stir-fried with vegetables and beef"
+            }
+          }
+        },
+        {
+          "name": "Могуру лагман",
+          "description": "Грибы, говядина, полугорький перец, томат",
+          "price": "1950",
+          "i18n": {
+            "kk": {
+              "name": "Могуру лағман",
+              "description": "Саңырауқұлақ, сиыр еті, жартылай ащы бұрыш, томат"
+            },
+            "tr": {
+              "name": "Moguru Lağman",
+              "description": "Mantar, dana eti, hafif acı biber, domates"
+            },
+            "en": {
+              "name": "Moguru Lagman",
+              "description": "Mushrooms, beef, semi-hot pepper, tomato"
+            }
+          }
+        },
+        {
+          "name": "Лазджи",
+          "description": "Мелко нарезанные кусочки курицы, сельдерей, полугорький перец",
+          "price": "2590",
+          "i18n": {
+            "kk": {
+              "name": "Лазджи",
+              "description": "Ұсақтап туралған тауық еті, балдыркөк, жартылай ащы бұрыш"
+            },
+            "tr": {
+              "name": "Lazci",
+              "description": "Küçük doğranmış tavuk parçaları, kereviz sapı, hafif acı biber"
+            },
+            "en": {
+              "name": "Lazdji",
+              "description": "Finely chopped chicken pieces, celery, semi-hot pepper"
+            }
+          }
+        },
+        {
+          "name": "Казан-кебаб",
+          "description": "Говядина, тушёное мясо с луком",
+          "price": "2690",
+          "i18n": {
+            "kk": {
+              "name": "Қазан-кебаб",
+              "description": "Сиыр еті, пиязбен бұқтырылған ет"
+            },
+            "tr": {
+              "name": "Kazan Kebabı",
+              "description": "Soğanla ağır ateşte pişirilmiş dana eti"
+            },
+            "en": {
+              "name": "Kazan Kebab",
+              "description": "Braised beef cooked with onions"
+            }
+          }
+        },
+        {
+          "name": "Дапанджи",
+          "portion": "5 порций — на заказ",
+          "description": "Острое тушеное мясо из курицы с овощами",
+          "price": "8500",
+          "i18n": {
+            "kk": {
+              "name": "Дапанджи",
+              "portion": "5 порция — тапсырыспен",
+              "description": "Көкөністермен бұқтырылған ащы тауық еті"
+            },
+            "tr": {
+              "name": "Dapanci",
+              "portion": "5 porsiyon — sipariş üzerine",
+              "description": "Sebzeli acılı tencere tavuk yemeği"
+            },
+            "en": {
+              "name": "Dapanji",
+              "portion": "5 servings — to order",
+              "description": "Spicy braised chicken with vegetables"
+            }
+          }
+        },
+        {
+          "name": "Куырдак",
+          "description": "Тушеное мясо баранина, картофель",
+          "price": "2850",
+          "i18n": {
+            "kk": {
+              "name": "Қуырдақ",
+              "description": "Бұқтырылған қой еті, картоп"
+            },
+            "tr": {
+              "name": "Kavurdak",
+              "description": "Patatesli kavrulmuş kuzu eti"
+            },
+            "en": {
+              "name": "Kuyrdak",
+              "description": "Traditional braised lamb with potatoes"
+            }
+          }
+        },
+        {
+          "name": "Котлеты с гарниром",
+          "description": "Фарш говяжий, лук репчатый, соль, перец чёрный молотый",
+          "price": "1690",
+          "i18n": {
+            "kk": {
+              "name": "Гарнир қосылған котлеттер",
+              "description": "Сиыр етінен тартпа ет, пияз, тұз, ұнтақталған қара бұрыш"
+            },
+            "tr": {
+              "name": "Garnitürlü Köfte",
+              "description": "Dana kıyma, kuru soğan, tuz, karabiber"
+            },
+            "en": {
+              "name": "Beef Cutlets with Side",
+              "description": "Minced beef, onion, salt, ground black pepper"
+            }
+          }
+        },
+        {
+          "name": "Манты с тыквой",
+          "portion": "порция 5 шт.",
+          "description": "Рубленое мясо говядина, тыква, лук",
+          "price": "1490",
+          "i18n": {
+            "kk": {
+              "name": "Асқабақ қосылған мәнті",
+              "portion": "порция 5 дана",
+              "description": "Туралған сиыр еті, асқабақ, пияз"
+            },
+            "tr": {
+              "name": "Balkabaklı Mantı",
+              "portion": "5 adet",
+              "description": "Zırh kıyması dana eti, balkabağı, soğan"
+            },
+            "en": {
+              "name": "Manti with Pumpkin",
+              "portion": "5 pcs",
+              "description": "Hand-chopped beef, pumpkin, onion"
+            }
+          }
+        },
+        {
+          "name": "Манты с мясом",
+          "portion": "порция 5 шт.",
+          "description": "Рубленое мясо говядина, лук",
+          "price": "1590",
+          "i18n": {
+            "kk": {
+              "name": "Ет қосылған мәнті",
+              "portion": "порция 5 дана",
+              "description": "Туралған сиыр еті, пияз"
+            },
+            "tr": {
+              "name": "Etli Mantı",
+              "portion": "5 adet",
+              "description": "Zırh kıyması dana eti, soğan"
+            },
+            "en": {
+              "name": "Manti with Meat",
+              "portion": "5 pcs",
+              "description": "Hand-chopped beef, onion"
+            }
+          }
+        },
+        {
+          "name": "Манты жаренные",
+          "portion": "порция 5 шт.",
+          "description": "Рубленое мясо говядина, лук",
+          "price": "1590",
+          "i18n": {
+            "kk": {
+              "name": "Қуырылған мәнті",
+              "portion": "порция 5 дана",
+              "description": "Туралған сиыр еті, пияз"
+            },
+            "tr": {
+              "name": "Kızartılmış Mantı",
+              "portion": "5 adet",
+              "description": "Zırh kıyması dana eti, soğan"
+            },
+            "en": {
+              "name": "Fried Manti",
+              "portion": "5 pcs",
+              "description": "Hand-chopped beef, onion"
+            }
+          }
+        },
+        {
+          "name": "Фри с курицей",
+          "description": "Грибы и куриное филе в сливочном соусе",
+          "price": "1890",
+          "i18n": {
+            "kk": {
+              "name": "Тауық еті қосылған фри",
+              "description": "Кілегей тұздығындағы саңырауқұлақ пен тауық сүбесі"
+            },
+            "tr": {
+              "name": "Tavuklu Patates Kızartması",
+              "description": "Kremalı sosta mantar ve tavuk bonfile"
+            },
+            "en": {
+              "name": "French Fries with Chicken",
+              "description": "Mushrooms and chicken fillet in creamy sauce"
+            }
+          }
+        },
+        {
+          "name": "Фри с мясом",
+          "description": "Мясо говядина, полугорький перец, лук, фри картофельный",
+          "price": "2290",
+          "i18n": {
+            "kk": {
+              "name": "Ет қосылған фри",
+              "description": "Сиыр еті, жартылай ащы бұрыш, пияз, фри картобы"
+            },
+            "tr": {
+              "name": "Etli Patates Kızartması",
+              "description": "Dana eti, hafif acı biber, soğan, patates kızartması"
+            },
+            "en": {
+              "name": "French Fries with Beef",
+              "description": "Beef, semi-hot pepper, onion, french fries"
+            }
+          }
+        },
+        {
+          "name": "Наггетсы",
+          "portion": "5 шт.",
+          "description": "Куриное филе",
+          "price": "1390",
+          "i18n": {
+            "kk": {
+              "name": "Наггетстер",
+              "portion": "5 дана",
+              "description": "Тауық сүбесі"
+            },
+            "tr": {
+              "name": "Tavuk Nugget",
+              "portion": "5 adet",
+              "description": "Tavuk bonfile"
+            },
+            "en": {
+              "name": "Chicken Nuggets",
+              "portion": "5 pcs",
+              "description": "Chicken fillet"
+            }
+          }
+        },
+        {
+          "name": "Картофель фри",
+          "price": "900",
+          "i18n": {
+            "kk": {
+              "name": "Фри картобы"
+            },
+            "tr": {
+              "name": "Patates Kızartması"
+            },
+            "en": {
+              "name": "French Fries"
+            }
+          }
+        },
+        {
+          "name": "Гарнир",
+          "portion": "рис, гречка, пюре, макарон",
+          "price": "500",
+          "i18n": {
+            "kk": {
+              "name": "Гарнир",
+              "portion": "күріш, қарақұмық, пюре, макарон"
+            },
+            "tr": {
+              "name": "Garnitür",
+              "portion": "pirinç, karabuğday, püre, makarna"
+            },
+            "en": {
+              "name": "Side Dish",
+              "portion": "rice, buckwheat, mashed potatoes, pasta"
+            }
+          }
+        }
+      ],
+      "i18n": {
+        "kk": {
+          "title": "Екінші тағамдар"
+        },
+        "tr": {
+          "title": "Ana Yemekler"
+        },
+        "en": {
+          "title": "Main Courses"
+        }
+      }
+    },
+    {
+      "id": "salads",
+      "title": "Салаты",
+      "titleKz": "Салаттар",
+      "items": [
+        {
+          "name": "Ачучук",
+          "portion": "250 г",
+          "description": "Помидоры, полугорький перец, лук",
+          "price": "790",
+          "i18n": {
+            "kk": {
+              "name": "Ачучук",
+              "portion": "250 г",
+              "description": "Қызанақ, жартылай ащы бұрыш, пияз"
+            },
+            "tr": {
+              "name": "Açuçuk",
+              "portion": "250 g",
+              "description": "Domates, hafif acı biber, soğan"
+            },
+            "en": {
+              "name": "Achichuk",
+              "portion": "250 g",
+              "description": "Tomatoes, semi-hot pepper, onion"
+            }
+          }
+        },
+        {
+          "name": "Оливье",
+          "portion": "250 г",
+          "description": "Колбаса вареная, огурцы соленые, картофель, морковь, горох зелёный",
+          "price": "1590",
+          "i18n": {
+            "kk": {
+              "name": "Оливье",
+              "portion": "250 г",
+              "description": "Пісірілген шұжық, тұздалған қияр, картоп, сәбіз, көк бұршақ"
+            },
+            "tr": {
+              "name": "Olivye Salatası",
+              "portion": "250 g",
+              "description": "Haşlanmış sosis, salatalık turşusu, patates, havuç, yeşil bezelye"
+            },
+            "en": {
+              "name": "Olivier Salad",
+              "portion": "250 g",
+              "description": "Boiled sausage, pickled cucumbers, potatoes, carrots, green peas"
+            }
+          }
+        },
+        {
+          "name": "Малибу",
+          "portion": "250 г",
+          "description": "Куриный рулет, сыр, помидоры, огурцы свежие, сухарики",
+          "price": "1650",
+          "i18n": {
+            "kk": {
+              "name": "Малибу",
+              "portion": "250 г",
+              "description": "Тауық орамасы, ірімшік, қызанақ, балғын қияр, кептірілген нан"
+            },
+            "tr": {
+              "name": "Malibu Salatası",
+              "portion": "250 g",
+              "description": "Tavuk rulo, peynir, domates, taze salatalık, kruton"
+            },
+            "en": {
+              "name": "Malibu Salad",
+              "portion": "250 g",
+              "description": "Chicken roll, cheese, tomatoes, fresh cucumbers, croutons"
+            }
+          }
+        },
+        {
+          "name": "Свежий",
+          "portion": "250 г",
+          "description": "Огурцы, помидоры, лук",
+          "price": "1190",
+          "i18n": {
+            "kk": {
+              "name": "Балғын салаты",
+              "portion": "250 г",
+              "description": "Қияр, қызанақ, пияз"
+            },
+            "tr": {
+              "name": "Çoban Salatası",
+              "portion": "250 g",
+              "description": "Salatalık, domates, soğan"
+            },
+            "en": {
+              "name": "Fresh Salad",
+              "portion": "250 g",
+              "description": "Cucumbers, tomatoes, onion"
+            }
+          }
+        },
+        {
+          "name": "Алазани",
+          "portion": "250 г",
+          "description": "Брынза, помидор черри, шампиньоны, чеснок, зелень",
+          "price": "1890",
+          "i18n": {
+            "kk": {
+              "name": "Алазани",
+              "portion": "250 г",
+              "description": "Брынза ірімшігі, черри қызанағы, шампиньон, сарымсақ, көк шөптер"
+            },
+            "tr": {
+              "name": "Alazani Salatası",
+              "portion": "250 g",
+              "description": "Beyaz peynir, çeri domates, kültür mantarı, sarımsak, yeşillik"
+            },
+            "en": {
+              "name": "Alazani Salad",
+              "portion": "250 g",
+              "description": "Brynza cheese, cherry tomatoes, mushrooms, garlic, fresh herbs"
+            }
+          }
+        },
+        {
+          "name": "Хрустящий баклажан",
+          "portion": "кисло-сладкий соус, 250 г",
+          "description": "Баклажан, помидоры, кукурузный крахмал, масло подсолнечное, укроп",
+          "price": "1790",
+          "i18n": {
+            "kk": {
+              "name": "Қытырлақ баялды",
+              "portion": "қышқыл-тәтті тұздық, 250 г",
+              "description": "Баялды, қызанақ, жүгері крахмалы, күнбағыс майы, аскөк"
+            },
+            "tr": {
+              "name": "Çıtır Patlıcan",
+              "portion": "tatlı-ekşi sos, 250 g",
+              "description": "Patlıcan, domates, mısır nişastası, ayçiçek yağı, dereotu"
+            },
+            "en": {
+              "name": "Crispy Eggplant",
+              "portion": "sweet & sour sauce, 250 g",
+              "description": "Eggplant, tomatoes, cornstarch, sunflower oil, dill"
+            }
+          }
+        }
+      ],
+      "i18n": {
+        "kk": {
+          "title": "Салаттар"
+        },
+        "tr": {
+          "title": "Salatalar"
+        },
+        "en": {
+          "title": "Salads"
+        }
+      }
+    },
+    {
+      "id": "desserts",
+      "title": "Десерты",
+      "titleKz": "Десерттер",
+      "items": [
+        {
+          "name": "Мокрый кекс",
+          "price": "650",
+          "i18n": {
+            "kk": {
+              "name": "Ылғалды кекс"
+            },
+            "tr": {
+              "name": "Islak Kek"
+            },
+            "en": {
+              "name": "Moist Chocolate Cake"
+            }
+          }
+        },
+        {
+          "name": "Медовый",
+          "price": "750",
+          "i18n": {
+            "kk": {
+              "name": "Балды торт"
+            },
+            "tr": {
+              "name": "Ballı Pasta"
+            },
+            "en": {
+              "name": "Honey Cake"
+            }
+          }
+        },
+        {
+          "name": "Бисквитный",
+          "price": "750",
+          "i18n": {
+            "kk": {
+              "name": "Бисквитті торт"
+            },
+            "tr": {
+              "name": "Pandispanya Pastası"
+            },
+            "en": {
+              "name": "Sponge Cake"
+            }
+          }
+        }
+      ],
+      "i18n": {
+        "kk": {
+          "title": "Десерттер"
+        },
+        "tr": {
+          "title": "Tatlılar"
+        },
+        "en": {
+          "title": "Desserts"
+        }
+      }
+    },
+    {
+      "id": "hot-drinks",
+      "title": "Горячие напитки",
+      "titleKz": "Ыстық сусындар",
+      "items": [
+        {
+          "name": "Чай чёрный",
+          "portion": "стакан / чайник",
+          "price": "350/550",
+          "i18n": {
+            "kk": {
+              "name": "Қара шай",
+              "portion": "стақан / шәйнек"
+            },
+            "tr": {
+              "name": "Siyah Çay",
+              "portion": "bardak / demlik"
+            },
+            "en": {
+              "name": "Black Tea",
+              "portion": "glass / pot"
+            }
+          }
+        },
+        {
+          "name": "Чай зелёный",
+          "portion": "стакан / чайник",
+          "price": "350/550",
+          "i18n": {
+            "kk": {
+              "name": "Көк шай",
+              "portion": "стақан / шәйнек"
+            },
+            "tr": {
+              "name": "Yeşil Çay",
+              "portion": "bardak / demlik"
+            },
+            "en": {
+              "name": "Green Tea",
+              "portion": "glass / pot"
+            }
+          }
+        },
+        {
+          "name": "Чай с молоком",
+          "portion": "стакан / чайник",
+          "price": "400/700",
+          "i18n": {
+            "kk": {
+              "name": "Сүтті шай",
+              "portion": "стақан / шәйнек"
+            },
+            "tr": {
+              "name": "Sütlü Çay",
+              "portion": "bardak / demlik"
+            },
+            "en": {
+              "name": "Milk Tea",
+              "portion": "glass / pot"
+            }
+          }
+        },
+        {
+          "name": "Чай Марокканский",
+          "price": "1590",
+          "i18n": {
+            "kk": {
+              "name": "Марокко шайы"
+            },
+            "tr": {
+              "name": "Fas Çayı"
+            },
+            "en": {
+              "name": "Moroccan Tea"
+            }
+          }
+        },
+        {
+          "name": "Чай Ташкентский",
+          "price": "900",
+          "i18n": {
+            "kk": {
+              "name": "Ташкент шайы"
+            },
+            "tr": {
+              "name": "Taşkent Çayı"
+            },
+            "en": {
+              "name": "Tashkent Tea"
+            }
+          }
+        },
+        {
+          "name": "Чай имбирный",
+          "price": "1390",
+          "i18n": {
+            "kk": {
+              "name": "Зімбір шайы"
+            },
+            "tr": {
+              "name": "Zencefilli Çay"
+            },
+            "en": {
+              "name": "Ginger Tea"
+            }
+          }
+        },
+        {
+          "name": "Кофе 3 в 1",
+          "price": "450",
+          "i18n": {
+            "kk": {
+              "name": "Кофе 3 в 1"
+            },
+            "tr": {
+              "name": "3'ü 1 Arada Kahve"
+            },
+            "en": {
+              "name": "3-in-1 Coffee"
+            }
+          }
+        }
+      ],
+      "i18n": {
+        "kk": {
+          "title": "Ыстық сусындар"
+        },
+        "tr": {
+          "title": "Sıcak İçecekler"
+        },
+        "en": {
+          "title": "Hot Drinks"
+        }
+      }
+    },
+    {
+      "id": "cold-drinks",
+      "title": "Холодные напитки",
+      "titleKz": "Салқын сусындар",
+      "items": [
+        {
+          "name": "Coca-Cola",
+          "portion": "0,5 / 1 л",
+          "price": "550/850",
+          "i18n": {
+            "kk": {
+              "name": "Coca-Cola",
+              "portion": "0,5 / 1 л"
+            },
+            "tr": {
+              "name": "Coca-Cola",
+              "portion": "0,5 / 1 L"
+            },
+            "en": {
+              "name": "Coca-Cola",
+              "portion": "0.5 / 1 L"
+            }
+          }
+        },
+        {
+          "name": "Fanta",
+          "portion": "0,5 / 1 л",
+          "price": "550/850",
+          "i18n": {
+            "kk": {
+              "name": "Fanta",
+              "portion": "0,5 / 1 л"
+            },
+            "tr": {
+              "name": "Fanta",
+              "portion": "0,5 / 1 L"
+            },
+            "en": {
+              "name": "Fanta",
+              "portion": "0.5 / 1 L"
+            }
+          }
+        },
+        {
+          "name": "Fuse Tea",
+          "portion": "0,5 / 1 л",
+          "price": "550/850",
+          "i18n": {
+            "kk": {
+              "name": "Fuse Tea",
+              "portion": "0,5 / 1 л"
+            },
+            "tr": {
+              "name": "Fuse Tea",
+              "portion": "0,5 / 1 L"
+            },
+            "en": {
+              "name": "Fuse Tea",
+              "portion": "0.5 / 1 L"
+            }
+          }
+        },
+        {
+          "name": "Минеральная вода",
+          "portion": "1 л",
+          "price": "650",
+          "i18n": {
+            "kk": {
+              "name": "Минералды су",
+              "portion": "1 л"
+            },
+            "tr": {
+              "name": "Maden Suyu",
+              "portion": "1 L"
+            },
+            "en": {
+              "name": "Mineral Water",
+              "portion": "1 L"
+            }
+          }
+        },
+        {
+          "name": "Сок PIKO",
+          "portion": "1 л",
+          "price": "1100",
+          "i18n": {
+            "kk": {
+              "name": "PIKO шырыны",
+              "portion": "1 л"
+            },
+            "tr": {
+              "name": "PIKO Meyve Suyu",
+              "portion": "1 L"
+            },
+            "en": {
+              "name": "PIKO Juice",
+              "portion": "1 L"
+            }
+          }
+        },
+        {
+          "name": "Компот",
+          "portion": "стакан / 1 л",
+          "price": "300/850",
+          "i18n": {
+            "kk": {
+              "name": "Компот",
+              "portion": "стақан / 1 л"
+            },
+            "tr": {
+              "name": "Komposto",
+              "portion": "bardak / 1 L"
+            },
+            "en": {
+              "name": "Compote",
+              "portion": "glass / 1 L"
+            }
+          }
+        },
+        {
+          "name": "Лимонад",
+          "portion": "1 л",
+          "price": "1490",
+          "i18n": {
+            "kk": {
+              "name": "Лимонад",
+              "portion": "1 л"
+            },
+            "tr": {
+              "name": "Limonata",
+              "portion": "1 L"
+            },
+            "en": {
+              "name": "Lemonade",
+              "portion": "1 L"
+            }
+          }
+        },
+        {
+          "name": "Манго-маракуйя",
+          "portion": "1 л",
+          "price": "1490",
+          "i18n": {
+            "kk": {
+              "name": "Манго-маракуйя",
+              "portion": "1 л"
+            },
+            "tr": {
+              "name": "Mango-Çarkıfelek",
+              "portion": "1 L"
+            },
+            "en": {
+              "name": "Mango-Passionfruit",
+              "portion": "1 L"
+            }
+          }
+        },
+        {
+          "name": "Мохито",
+          "portion": "1 л",
+          "price": "1490",
+          "i18n": {
+            "kk": {
+              "name": "Мохито",
+              "portion": "1 л"
+            },
+            "tr": {
+              "name": "Mojito",
+              "portion": "1 L"
+            },
+            "en": {
+              "name": "Mojito",
+              "portion": "1 L"
+            }
+          }
+        },
+        {
+          "name": "Клубника",
+          "portion": "1 л",
+          "price": "1490",
+          "i18n": {
+            "kk": {
+              "name": "Құлпынай лимонады",
+              "portion": "1 л"
+            },
+            "tr": {
+              "name": "Çilekli Limonata",
+              "portion": "1 L"
+            },
+            "en": {
+              "name": "Strawberry Lemonade",
+              "portion": "1 L"
+            }
+          }
+        }
+      ],
+      "i18n": {
+        "kk": {
+          "title": "Салқын сусындар"
+        },
+        "tr": {
+          "title": "Soğuk İçecekler"
+        },
+        "en": {
+          "title": "Cold Drinks"
+        }
+      }
+    }
+  ]
+}
