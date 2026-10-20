@@ -581,7 +581,7 @@ export async function seedInitialSupabaseMenu(): Promise<Menu> {
 }
 
 // Supabase signs in by email only; a plain login like "admin" maps to an internal address.
-export const ADMIN_LOGIN_DOMAIN = 'halal-palau.local';
+export const ADMIN_LOGIN_DOMAIN = 'halalpalau.local';
 
 export function loginToEmail(login: string): string {
   const value = login.trim().toLowerCase();
