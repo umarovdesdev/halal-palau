@@ -167,13 +167,15 @@ const AdminGate: React.FC<AdminGateProps> = ({
           {supabaseActive && !configuredEmail && (
             <div className="admin-field">
               <label className="admin-field-label" htmlFor="admin-gate-email">
-                Email
+                Логин или email
               </label>
               <input
                 id="admin-gate-email"
-                type="email"
+                type="text"
                 className="admin-input"
-                placeholder="admin@example.com"
+                placeholder="admin"
+                autoCapitalize="none"
+                spellCheck={false}
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required

@@ -216,3 +216,11 @@ describe('Admin password verification (PBKDF2)', () => {
     expect(await verifyPasswordHash('test123', 'ecd71870d1963316')).toBe(false);
   });
 });
+
+describe('Admin login to email mapping', () => {
+  it('maps a plain login to the internal domain and keeps real emails', async () => {
+    const { loginToEmail } = await import('../data/store');
+    expect(loginToEmail(' Admin ')).toBe('admin@halal-palau.local');
+    expect(loginToEmail('Umarov@Example.com')).toBe('umarov@example.com');
+  });
+});

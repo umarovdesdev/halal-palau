@@ -580,14 +580,23 @@ export async function seedInitialSupabaseMenu(): Promise<Menu> {
   return staticMenu;
 }
 
+// Supabase signs in by email only; a plain login like "admin" maps to an internal address.
+export const ADMIN_LOGIN_DOMAIN = 'halal-palau.local';
+
+export function loginToEmail(login: string): string {
+  const value = login.trim().toLowerCase();
+  return value.includes('@') ? value : `${value}@${ADMIN_LOGIN_DOMAIN}`;
+}
+
 export async function signInAdmin(
-  email: string,
+  login: string,
   password: string
 ): Promise<{ email?: string; error?: string }> {
   if (!isSupabaseMode()) {
     return { email: 'local@admin' };
   }
   const supabase = getSupabase();
+  const email = loginToEmail(login);
   const { data, error } = await supabase.auth.signInWithPassword({ email, password });
   if (error) {
     return { error: error.message };
